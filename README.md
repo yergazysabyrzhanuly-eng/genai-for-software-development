@@ -2,7 +2,7 @@
 
 Practical tasks for the EPAM / TechOrda course **"Generative AI for Software Development"**.
 
-**Student:** Ergazy Nurmaganbetov
+**Student:** Yergazy Nurmaganbetov
 
 ## Modules
 
