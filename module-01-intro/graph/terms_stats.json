@@ -1,0 +1,648 @@
+{
+  "source": {
+    "report": "../research-report.md",
+    "vocabulary": "../vocabulary.md"
+  },
+  "method": "Explicit = the term or its direct forms; implicit = synonyms, descriptions or examples of the concept. Explicit matches are masked before implicit counting.",
+  "sections": [
+    "Introduction",
+    "1 Coding assistants",
+    "2 Test generation",
+    "3 Logs & debugging",
+    "4 RAG",
+    "5 Agentic SDLC",
+    "6 Small & local LLMs",
+    "7 Multimodal",
+    "Summary"
+  ],
+  "terms": [
+    {
+      "term": "LLM",
+      "explicit_total": 12,
+      "implicit_total": 20,
+      "sections_used": 7,
+      "by_section": {
+        "Introduction": {
+          "explicit": 2,
+          "implicit": 1
+        },
+        "1 Coding assistants": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "4 RAG": {
+          "explicit": 3,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 3,
+          "implicit": 14
+        },
+        "7 Multimodal": {
+          "explicit": 1,
+          "implicit": 3
+        },
+        "Summary": {
+          "explicit": 1,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bLLMs?\\b",
+        "\\blarge language models?\\b",
+        "\\blanguage models?\\b"
+      ],
+      "implicit_patterns": [
+        "\\bmodels?\\b"
+      ]
+    },
+    {
+      "term": "Attention mechanism",
+      "explicit_total": 1,
+      "implicit_total": 1,
+      "sections_used": 2,
+      "by_section": {
+        "Introduction": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "1 Coding assistants": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\battention mechanism\\b",
+        "\\battention\\b"
+      ],
+      "implicit_patterns": [
+        "\\bmost relevant\\b",
+        "\\brelevant chunks\\b"
+      ]
+    },
+    {
+      "term": "Next-token prediction",
+      "explicit_total": 1,
+      "implicit_total": 2,
+      "sections_used": 2,
+      "by_section": {
+        "Introduction": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "1 Coding assistants": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bnext-token prediction\\b"
+      ],
+      "implicit_patterns": [
+        "\\bpredict\\w*",
+        "\\bstatistically continues\\b",
+        "\\bcontinues? a sequence\\b"
+      ]
+    },
+    {
+      "term": "Context window",
+      "explicit_total": 3,
+      "implicit_total": 5,
+      "sections_used": 7,
+      "by_section": {
+        "Introduction": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "1 Coding assistants": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "3 Logs & debugging": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 1
+        }
+      },
+      "explicit_patterns": [
+        "\\bcontext windows?\\b"
+      ],
+      "implicit_patterns": [
+        "\\bcontext\\b",
+        "\\bshort-term memory\\b",
+        "\\bfits? into\\b"
+      ]
+    },
+    {
+      "term": "Prompt",
+      "explicit_total": 2,
+      "implicit_total": 3,
+      "sections_used": 4,
+      "by_section": {
+        "Introduction": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "1 Coding assistants": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 1
+        }
+      },
+      "explicit_patterns": [
+        "\\bprompts?\\b"
+      ],
+      "implicit_patterns": [
+        "\\binstructions?\\b",
+        "\\bquestions?\\b"
+      ]
+    },
+    {
+      "term": "AI agent",
+      "explicit_total": 29,
+      "implicit_total": 8,
+      "sections_used": 8,
+      "by_section": {
+        "Introduction": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "1 Coding assistants": {
+          "explicit": 7,
+          "implicit": 0
+        },
+        "2 Test generation": {
+          "explicit": 4,
+          "implicit": 1
+        },
+        "3 Logs & debugging": {
+          "explicit": 3,
+          "implicit": 1
+        },
+        "4 RAG": {
+          "explicit": 2,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 8,
+          "implicit": 4
+        },
+        "6 Small & local LLMs": {
+          "explicit": 2,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 2,
+          "implicit": 2
+        }
+      },
+      "explicit_patterns": [
+        "\\bAI agents?\\b",
+        "\\bsub-agents?\\b",
+        "\\bagents?\\b"
+      ],
+      "implicit_patterns": [
+        "\\bautonomous(?:ly)?\\b",
+        "\\bdelegat\\w*"
+      ]
+    },
+    {
+      "term": "Agentic platform",
+      "explicit_total": 2,
+      "implicit_total": 1,
+      "sections_used": 1,
+      "by_section": {
+        "Introduction": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "1 Coding assistants": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 2,
+          "implicit": 1
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bagentic platforms?\\b"
+      ],
+      "implicit_patterns": [
+        "\\borchestrat\\w*",
+        "\\bmulti-agent\\b"
+      ]
+    },
+    {
+      "term": "Copilot",
+      "explicit_total": 6,
+      "implicit_total": 3,
+      "sections_used": 4,
+      "by_section": {
+        "Introduction": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "1 Coding assistants": {
+          "explicit": 2,
+          "implicit": 1
+        },
+        "2 Test generation": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 2,
+          "implicit": 1
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bcopilots?\\b"
+      ],
+      "implicit_patterns": [
+        "\\bplugin\\b",
+        "\\bcompanion\\b",
+        "\\bIDE extension\\b",
+        "\\binside an IDE\\b",
+        "\\bexisting IDE\\b"
+      ]
+    },
+    {
+      "term": "AI-native IDE",
+      "explicit_total": 3,
+      "implicit_total": 4,
+      "sections_used": 1,
+      "by_section": {
+        "Introduction": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "1 Coding assistants": {
+          "explicit": 3,
+          "implicit": 4
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bAI-native IDEs?\\b",
+        "\\bAI-native\\b"
+      ],
+      "implicit_patterns": [
+        "\\bcode editor\\b",
+        "\\bCursor\\b",
+        "\\bWindsurf\\b",
+        "\\bDevin Desktop\\b"
+      ]
+    },
+    {
+      "term": "Vibe coding",
+      "explicit_total": 1,
+      "implicit_total": 1,
+      "sections_used": 1,
+      "by_section": {
+        "Introduction": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "1 Coding assistants": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bvibe coding\\b"
+      ],
+      "implicit_patterns": [
+        "\\bnatural[- ]language\\b"
+      ]
+    },
+    {
+      "term": "Prompt injection",
+      "explicit_total": 1,
+      "implicit_total": 0,
+      "sections_used": 1,
+      "by_section": {
+        "Introduction": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "1 Coding assistants": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "4 RAG": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "5 Agentic SDLC": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "Summary": {
+          "explicit": 0,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bprompt injection\\b"
+      ],
+      "implicit_patterns": [
+        "\\bhidden commands\\b",
+        "\\bmalicious instructions\\b",
+        "\\buntrusted input\\b"
+      ]
+    },
+    {
+      "term": "Hallucination",
+      "explicit_total": 5,
+      "implicit_total": 5,
+      "sections_used": 7,
+      "by_section": {
+        "Introduction": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "1 Coding assistants": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "2 Test generation": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "3 Logs & debugging": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "4 RAG": {
+          "explicit": 1,
+          "implicit": 1
+        },
+        "5 Agentic SDLC": {
+          "explicit": 0,
+          "implicit": 0
+        },
+        "6 Small & local LLMs": {
+          "explicit": 1,
+          "implicit": 0
+        },
+        "7 Multimodal": {
+          "explicit": 0,
+          "implicit": 1
+        },
+        "Summary": {
+          "explicit": 1,
+          "implicit": 0
+        }
+      },
+      "explicit_patterns": [
+        "\\bhallucinat\\w*"
+      ],
+      "implicit_patterns": [
+        "\\bconvincing\\b",
+        "\\bconfident but wrong\\b",
+        "\\bfluent answer\\b",
+        "\\bwrong conclusions\\b",
+        "\\bgarble\\w*",
+        "\\bcompiles but breaks\\b"
+      ]
+    }
+  ]
+}
